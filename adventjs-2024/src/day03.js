@@ -1,9 +1,5 @@
 // Day 03 of AdventJS 2024
 function organizeInvetory(inventory) {
-  if (!inventory) {
-    return {}
-  }
-
   const organizedInventory = {}
 
   inventory.map(({ name, quantity, category}) => {
